@@ -31,8 +31,8 @@ function App() {
         events={[]}
         initialDate={new Date().toISOString()}
         hourHeight={60}
-        initialView={CalendarView.WEEK}
-        disabledViews={[CalendarView.DAY]}
+        initialView={CalendarView.DAY}
+        disabledViews={[]}
         onSelectView={onSelectView}
         selectedView={selectedView}
         onPageChange={onPageChange}
